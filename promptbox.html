@@ -1,0 +1,26 @@
+<html> 
+<head> 
+<script type="text/javascript"> 
+var txt;   
+function fun() 
+{ 
+var person=prompt("Enter your name","Abc"); 
+if((person==null)||(person=="")) 
+{ 
+txt="User Cancelled the prompt"; 
+} 
+else 
+{ 
+txt="Hello "+person; 
+} 
+document.getElementById("demo").innerHTML=txt; 
+} 
+</script> 
+</head> 
+<body> 
+<form> 
+<input type="button" name="btn1" value="Prompt Value" onclick="fun()"><br> 
+<p id="demo"></p> 
+</form> 
+</body> 
+</html>  

@@ -1,0 +1,44 @@
+h1{
+color:blue;
+} 
+p{
+color:white;
+} 
+.ct{color:blue;} 
+.c{color:red;} 
+p.c{font-size:20pt;} 
+div.cp p{color:red;font-size:30pt;} 
+div.cp>p{color:white;} 
+a:link{color:red;} 
+a:visited{color:white;} 
+a:hover{color:blue;} 
+a:active{color:green}
+
+
+table{ 
+ border-style:double; 
+ width:300px; 
+ height:500px; 
+ background-color:red; 
+ border-collapse:separate; 
+}
+
+
+th{ 
+ text-align:left; 
+ vertical-align:bottom; 
+ } 
+ tr:hover{background-color:yellow;} 
+ tr:nth-child(odd) 
+ {background-color:pink;}   
+
+
+
+
+
+
+
+
+
+
+ 

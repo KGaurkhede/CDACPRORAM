@@ -1,0 +1,27 @@
+<html> 
+<head> 
+<script> 
+var cars=["BMW","Swift","Kwid"]; 
+function fun1() 
+{ 
+cars.sort(); 
+for(var i=0;i<cars.length;i++) 
+{ 
+document.write(cars[i]+" "); 
+} 
+} 
+function fun2() 
+{ 
+var x=document.getElementById("t1").value; 
+cars.push(x); 
+} 
+</script> 
+</head> 
+<body> 
+<form name="form1"> 
+<input type="text" id="t1" name="name"><br> 
+<input type="button" value="Get" onclick="fun1()"> 
+<input type="button" value="Push" onclick="fun2()"> 
+</form> 
+</body> 
+</html> 
